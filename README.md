@@ -12,6 +12,8 @@
   - [01 Servicebeschrieb](#01-servicebeschrieb)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
+      - [02.1.1 Materialliste](#0211-materialliste)
+      - [02.1.2 Funktionalität](#0212-funktionalit%c3%a4t)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
   - [04 Testing](#04-testing)
@@ -24,7 +26,9 @@
 ## 02 Voraussetzungen
 
 ### 02.1 Hardware
+#### 02.1.1 Materialliste
 
+#### 02.1.2 Funktionalität
 
 ### 02.2 Software
 
