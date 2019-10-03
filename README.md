@@ -1,4 +1,4 @@
-# Serviceauftrag RasPi-Werkstatt: NAS Pi
+# Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer
 ```
 +--Dokumentation--------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
@@ -7,7 +7,7 @@
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
-- [Serviceauftrag RasPi-Werkstatt: NAS Pi](#serviceauftrag-raspi-werkstatt-nas-pi)
+- [Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer](#serviceauftrag-raspi-werkstatt-nas-pi---lehrer)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [01 Servicebeschrieb](#01-servicebeschrieb)
   - [02 Voraussetzungen](#02-voraussetzungen)
