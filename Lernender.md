@@ -12,7 +12,7 @@
   - [01 Einführung](#01-einf%c3%bchrung)
     - [Kompakt & Portabel](#kompakt--portabel)
     - [Daten speichern und synchronisieren](#daten-speichern-und-synchronisieren)
-  - [02 Voraussetzungen](#02-voraussetzungen)
+  - [02 Materialliste](#02-materialliste)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
@@ -30,8 +30,8 @@ Für die meisten Funktionen, welche man von einem NAS erwartet, reicht ein Raspb
 Für den Betrieb des eigenen NAS-Servers wird neben einem Raspberry Pi nur noch mindestens ein USB-Stick oder eine USB-Festplatte und eine NAS-Server-Software benötigt. Im Internet finden sich einige kostenlose Lösungen, wir möchten jedoch OpenMediaVault empfehlen. OpenMediaVault ist eine Open Source NAS-Server-Software und bietet Funktionen zum Speichern und Verwalten von Dateien an. Für den Fernzugriff auf das NAS unterstützt sie FTP, TFTP, SMB, NFS und SNMP; somit kommt man von praktisch jedem Gerät aus an die eigenen Daten.  
 Zur Datensicherung bietet OpenMediaVault die Synchronisation mit Rsync an. Damit kann festgelegt werden, welche Verzeichnisse gesichert und welche nicht gesichert werden sollen.  
 
-## 02 Voraussetzungen
-
+## 02 Materialliste
+Für den eigenen NAS-Server wird nur wenig Hard- und Softwarte benötigt:  
 
 ### 02.1 Hardware
 | Material | Funktionalität |
