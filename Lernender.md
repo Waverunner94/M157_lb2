@@ -31,7 +31,7 @@ Für den Betrieb des eigenen NAS-Servers wird neben einem Raspberry Pi nur noch 
 Zur Datensicherung bietet OpenMediaVault die Synchronisation mit Rsync an. Damit kann festgelegt werden, welche Verzeichnisse gesichert und welche nicht gesichert werden sollen.  
 
 ## 02 Voraussetzungen
-Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, kostengünstig und setzt wenig voraus.  
+
 
 ### 02.1 Hardware
 | Material | Funktionalität |
@@ -61,7 +61,7 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 
 
 ## 06 Quellen
-*<a name="1">1</a>* https://www.openmediavault.org/  
-*<a name="2">2</a>* https://sourceforge.net/projects/win32diskimager/files/latest/download  
-*<a name="3">3</a>*	https://www.tweaking4all.com/hardware/raspberry-pi/applepi-baker-v2/#InstallingApplePiBaker  
-*<a name="4">4</a>*	https://angryip.org/download/
+*<a name="1">1</a>* 
+*<a name="2">2</a>*  
+*<a name="3">3</a>*	 
+*<a name="4">4</a>*	
