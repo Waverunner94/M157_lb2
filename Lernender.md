@@ -16,9 +16,8 @@
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
-  - [04 Testing](#04-testing)
-  - [05 Übergabe an den Betrieb](#05-%c3%9cbergabe-an-den-betrieb)
-  - [06 Quellen](#06-quellen)
+  - [04 Qualitätskontrolle](#04-qualit%c3%a4tskontrolle)
+  - [05 Error-Handling](#05-error-handling)
 
 ## 01 Einführung
 Bestimmt wolltest du schon einmal von verschiedenen Geräten aus, in deinem privaten Netzwerk, auf deine persönlichen Dateien, Videos und Musik zugreifen aber konntest dir bisher kein teures NAS leisten. Mit unserem Serviceauftrag wollen wir dir dabei helfen, deinen eigenen und erst noch kostengünstigen NAS-Server zu bauen.  
@@ -54,14 +53,7 @@ Für den eigenen NAS-Server wird nur wenig Hard- und Softwarte benötigt:
 ## 03 Installationsanleitung
 
 
-## 04 Testing
+## 04 Qualitätskontrolle
 
 
-## 05 Übergabe an den Betrieb
-
-
-## 06 Quellen
-*<a name="1">1</a>* 
-*<a name="2">2</a>*  
-*<a name="3">3</a>*	 
-*<a name="4">4</a>*	
+## 05 Error-Handling
