@@ -21,7 +21,7 @@
   - [06 Quellen](#06-quellen)
 
 ## 01 Servicebeschrieb
-
+Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigenes kompaktes und portables NAS auf einem Raspberry Pi aufzusetzen. Der Auftrag ist vor allem an Anfänger gerichtet und bietet einen soliden Einstieg in die zentrale Dateispeicherung im privaten Bereich.
 
 ## 02 Voraussetzungen
 
