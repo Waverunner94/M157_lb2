@@ -13,7 +13,6 @@
     - [Funktionen](#funktionen)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
-      - [02.1.1 Materialliste](#0211-materialliste)
       - [02.1.2 Funktionalität](#0212-funktionalit%c3%a4t)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
@@ -28,13 +27,19 @@ Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigene
 -	Speichern und Verwalten von Dateien
 -	Fernzugriff über FTP, TFTP, SMB, NFS und SNMP
 -	Datensicherung mit Rsync: welche Verzeichnisse werden gesichert, welche nicht
--	Plug-ins: Virenscanner (?)
-
+-	Plug-ins: Virenscanner (?)  
 
 ## 02 Voraussetzungen
+Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, kostengünstig und setzt wenig voraus.  
 
 ### 02.1 Hardware
-#### 02.1.1 Materialliste
+| Material | Funktionalität |
+|----------|---------------:|
+| Raspberry Pi 2 / Raspberry Pi 3 / Raspberry Pi 4 | Einplatinencomputer – Funktion als NAS-Server |
+| microSD-Karte	| Speicherkarte auf der sich das OS-Image befindet |
+| microSD-Kartenleser	| Zum Schreiben des Images auf die microSD-Karte |
+| USB-Stick / USB-Festplatte |	Zur Dateiablage
+| Gerät für Verbindungsaufbau zum Raspi	| Am besten eignet sich hierfür ein Notebook |
 
 #### 02.1.2 Funktionalität
 
