@@ -43,7 +43,7 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 ### 02.2 Software
 | Name |	Funktionalität |	Mindestanforderungen |
 |:-----|:----------------|:----------------------|
-| OpenMediaVault<sub>1</sub>	| Open Source NAS-Server-Software |	CPU: 500MHz Pentium 3 <br> RAM: 128MB <br> Speicherplatz: 2GB |
+| OpenMediaVault<sub>[1](#1)</sub>	| Open Source NAS-Server-Software |	CPU: 500MHz Pentium 3 <br> RAM: 128MB <br> Speicherplatz: 2GB |
 | Win32 Disk Imager (Windows)<sub>2</sub> <br> ApplePi-Baker v2 (macOS)<sub>3</sub> | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
 | Angry IP Scanner<sub>4</sub>	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
 | Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
@@ -59,7 +59,7 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 
 
 ## 06 Quellen
-*1* https://www.openmediavault.org/  
+*[1]*(#1) https://www.openmediavault.org/  
 *2* https://sourceforge.net/projects/win32diskimager/files/latest/download  
 *3*	https://www.tweaking4all.com/hardware/raspberry-pi/applepi-baker-v2/#InstallingApplePiBaker  
 *4*	https://angryip.org/download/
