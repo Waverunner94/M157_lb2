@@ -34,7 +34,7 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 
 ### 02.1 Hardware
 | Material | Funktionalität |
-|----------|:--------------:|
+|:---------|:---------------|
 | Raspberry Pi 2 / Raspberry Pi 3 / Raspberry Pi 4 | Einplatinencomputer – Funktion als NAS-Server |
 | microSD-Karte	| Speicherkarte auf der sich das OS-Image befindet |
 | microSD-Kartenleser	| Zum Schreiben des Images auf die microSD-Karte |
