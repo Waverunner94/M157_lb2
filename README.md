@@ -62,4 +62,4 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 *<a name="1">1</a>* https://www.openmediavault.org/  
 *<a name="2">2</a>* https://sourceforge.net/projects/win32diskimager/files/latest/download  
 *<a name="3">3</a>*	https://www.tweaking4all.com/hardware/raspberry-pi/applepi-baker-v2/#InstallingApplePiBaker  
-*<a name="4">*</a>*	https://angryip.org/download/
+*<a name="4">4</a>*	https://angryip.org/download/
