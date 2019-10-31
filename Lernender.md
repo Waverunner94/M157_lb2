@@ -3,7 +3,7 @@
 +--Dokumentation--------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.0                            !
+! Version: 1.1                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
