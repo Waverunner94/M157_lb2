@@ -10,6 +10,7 @@
 - [Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer](#serviceauftrag-raspi-werkstatt-nas-pi---lehrer)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [01 Servicebeschrieb](#01-servicebeschrieb)
+    - [Funktionen](#funktionen)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
       - [02.1.1 Materialliste](#0211-materialliste)
@@ -21,7 +22,14 @@
   - [06 Quellen](#06-quellen)
 
 ## 01 Servicebeschrieb
-Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigenes kompaktes und portables NAS auf einem Raspberry Pi aufzusetzen. Der Auftrag ist vor allem an Anfänger gerichtet und bietet einen soliden Einstieg in die zentrale Dateispeicherung im privaten Bereich.
+Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigenes kompaktes und portables NAS auf einem Raspberry Pi aufzusetzen. Der Auftrag ist vor allem an Anfänger gerichtet und bietet einen soliden Einstieg in die zentrale Dateispeicherung im privaten Bereich.  
+
+### Funktionen
+-	Speichern und Verwalten von Dateien
+-	Fernzugriff über FTP, TFTP, SMB, NFS und SNMP
+-	Datensicherung mit Rsync: welche Verzeichnisse werden gesichert, welche nicht
+-	Plug-ins: Virenscanner (?)
+
 
 ## 02 Voraussetzungen
 
