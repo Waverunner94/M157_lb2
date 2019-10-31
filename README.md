@@ -13,7 +13,6 @@
     - [Funktionen](#funktionen)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
-      - [02.1.2 Funktionalität](#0212-funktionalit%c3%a4t)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
   - [04 Testing](#04-testing)
@@ -41,9 +40,13 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 | USB-Stick / USB-Festplatte |	Zur Dateiablage
 | Gerät für Verbindungsaufbau zum Raspi	| Am besten eignet sich hierfür ein Notebook |
 
-#### 02.1.2 Funktionalität
-
 ### 02.2 Software
+| Name |	Funktionalität |	Mindestanforderungen |
+|:-----|:----------------|:----------------------|
+| OpenMediaVault1	| Open Source NAS-Server-Software |	CPU: 500MHz Pentium 3 <br> RAM: 128MB <br> Speicherplatz: 2GB |
+| Win32 Disk Imager (Windows) 2 <br> ApplePi-Baker v2 (macOS) 3 | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
+| Angry IP Scanner4	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
+| Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
 
 
 ## 03 Installationsanleitung
