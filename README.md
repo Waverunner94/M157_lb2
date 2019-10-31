@@ -1,4 +1,4 @@
-# Serviceauftrag RasPi-Werkstatt: NAS Pi - Readme  
+# Serviceauftrag RasPi-Werkstatt: NAS Pi - README  
 ```
 +--Dokumentation--------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
