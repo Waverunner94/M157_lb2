@@ -30,7 +30,7 @@ Für den Betrieb des eigenen NAS-Servers wird neben einem Raspberry Pi nur noch 
 Zur Datensicherung bietet OpenMediaVault die Synchronisation mit Rsync an. Damit kann festgelegt werden, welche Verzeichnisse gesichert und welche nicht gesichert werden sollen.  
 
 ## 02 Materialliste
-Für den eigenen NAS-Server wird nur wenig Hard- und Softwarte benötigt:  
+Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwarte benötigt:  
 
 ### 02.1 Hardware
 | Material | Funktionalität |
@@ -44,9 +44,9 @@ Für den eigenen NAS-Server wird nur wenig Hard- und Softwarte benötigt:
 ### 02.2 Software
 | Name |	Funktionalität |	Mindestanforderungen |
 |:-----|:----------------|:----------------------|
-| OpenMediaVault<sub>[1](#1)</sub>	| Open Source NAS-Server-Software |	CPU: 500MHz Pentium 3 <br> RAM: 128MB <br> Speicherplatz: 2GB |
-| Win32 Disk Imager (Windows)<sub>[2](#2)</sub> <br> ApplePi-Baker v2 (macOS)<sub>[3](#3)</sub> | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
-| Angry IP Scanner<sub>[4](#4)</sub>	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
+| OpenMediaVault	| Open Source NAS-Server-Software |	CPU: 500MHz Pentium 3 <br> RAM: 128MB <br> Speicherplatz: 2GB |
+| Win32 Disk Imager (Windows) <br> ApplePi-Baker v2 (macOS) | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
+| Angry IP Scanner	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
 | Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
 
 
