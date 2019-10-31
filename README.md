@@ -59,3 +59,7 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 
 
 ## 06 Quellen
+*1* https://www.openmediavault.org/  
+*2* https://sourceforge.net/projects/win32diskimager/files/latest/download  
+*3*	https://www.tweaking4all.com/hardware/raspberry-pi/applepi-baker-v2/#InstallingApplePiBaker  
+*4*	https://angryip.org/download/
