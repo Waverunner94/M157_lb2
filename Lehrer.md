@@ -1,6 +1,6 @@
 # Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer
 ```
-+--Dokumentation--------------------------+
++--Dokumentation Lehrer-------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
 ! Version: 1.5                            !
