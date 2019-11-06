@@ -36,7 +36,7 @@ Wie es beim realisieren technischer Lösungen leider oft so ist, funktioniert ni
 | Problem | Beschrieb | Lösungsansatz |
 |:---------|:---------------|:--------|
 | Raspberry Pi offline | Obwohl der Raspi mit eingesteckter microSD-Karte läuft und im LAN auftauchen sollte, <br> erscheint dieser nicht in den Suchergebnissen des IP-Scanners. | - Monitor an Raspi anschliessen, Status prüfen <br> - Client und Raspi im selben Netz? <br> - Raspi austauschen <br> - microSD-Karte richtig geflasht? |
-| Verbindungsprobleme | Der Raspi läuft, aber es kann keine Verbindung zum OpenMediaVault Webinterface <br> hergestellt werden | - Login via Raspi CMC - mount -a <br> - Anderen Browser verwenden |
+| Verbindungsprobleme | Der Raspi läuft, aber es kann keine Verbindung zum OpenMediaVault Webinterface <br> hergestellt werden | - Login via Raspi CMC -> *mount -a* <br> - Anderen Browser verwenden |
 
 ## 02 Materialliste
 Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwarte benötigt:  
