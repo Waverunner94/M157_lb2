@@ -3,7 +3,7 @@
 +--Dokumentation Lernender----------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.1                            !
+! Version: 1.2                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
@@ -12,6 +12,7 @@
   - [01 Einführung](#01-einf%c3%bchrung)
     - [Kompakt & Portabel](#kompakt--portabel)
     - [Daten speichern und synchronisieren](#daten-speichern-und-synchronisieren)
+    - [Verbindungsprobleme und andere mögliche Stolpersteine](#verbindungsprobleme-und-andere-mögliche-stolpersteine)
   - [02 Materialliste](#02-materialliste)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
@@ -26,8 +27,17 @@ Bestimmt wolltest du schon einmal von verschiedenen Geräten aus, in deinem priv
 Für die meisten Funktionen, welche man von einem NAS erwartet, reicht ein Raspberry Pi 2, 3, oder noch besser ein Raspberry Pi 4 aus. Der Raspi bietet zwar im Vergleich zu einer NAS-Box, nie dieselbe Prozessorleistung und Übertragungsrate, doch dafür kann er mit seiner Kompaktheit, Portabilität sowie den geringen Anschaffungs- und Energiekosten punkten.  
 
 ### Daten speichern und synchronisieren
-Für den Betrieb des eigenen NAS-Servers wird neben einem Raspberry Pi nur noch mindestens ein USB-Stick oder eine USB-Festplatte und eine NAS-Server-Software benötigt. Im Internet finden sich einige kostenlose Lösungen, wir möchten jedoch OpenMediaVault empfehlen. OpenMediaVault ist eine Open Source NAS-Server-Software und bietet Funktionen zum Speichern und Verwalten von Dateien an. Für den Fernzugriff auf das NAS unterstützt sie FTP, TFTP, SMB, NFS und SNMP; somit kommt man von praktisch jedem Gerät aus an die eigenen Daten.  
+Um den eigenen NAS-Server zu betreiben, wird neben einem Raspberry Pi nur noch mindestens ein USB-Stick oder eine USB-Festplatte und eine NAS-Server-Software benötigt. Im Internet finden sich einige kostenlose Lösungen, wir möchten jedoch OpenMediaVault empfehlen. OpenMediaVault ist eine Open Source NAS-Server-Software und bietet Funktionen zum Speichern und Verwalten von Dateien an. Für den Fernzugriff auf das NAS unterstützt sie FTP, TFTP, SMB, NFS und SNMP; somit kommt man von praktisch jedem Gerät aus an die eigenen Daten.  
 Zur Datensicherung bietet OpenMediaVault die Synchronisation mit Rsync an. Damit kann festgelegt werden, welche Verzeichnisse gesichert und welche nicht gesichert werden sollen.  
+
+### Verbindungsprobleme und andere mögliche Stolpersteine  
+Wie es beim realisieren technischer Lösungen leider oft so ist, funktioniert nicht immer alles reibungslos. Die Installation und Konfiguration vom eigenen NAS Pi mit OpenMediaVault ist zwar sehr unkompliziert und in der Regel schnell gemacht, doch auch hier können einige Stolpersteine dafür sorgen, dass einige Lektionen für die Suche nach Problemlösungen geopfert werden müssen. Um dies zu verhindern, zählen wir die Probleme mit möglichen Lösungsansätzen auf, die uns bekannt sind.  
+
+| Problem | Beschrieb | Lösungsansatz |
+|:---------|:---------------|:--------|
+| Raspberry Pi offline | Obwohl der Raspi mit eingesteckter microSD-Karte läuft und im LAN auftauchen sollte, <br> erscheint dieser nicht in den Suchergebnissen des IP-Scanners. | - Monitor an Raspi anschliessen, Status prüfen <br> - Client und Raspi im selben Netz? <br> - Raspi austauschen <br> - microSD-Karte richtig geflasht? |
+| Verbindungsprobleme | Der Raspi läuft, aber es kann keine Verbindung zum OpenMediaVault Webinterface <br> hergestellt werden | - Login via Raspi CMC - mount -a <br> - Anderen Browser verwenden
+|
 
 ## 02 Materialliste
 Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwarte benötigt:  
@@ -40,6 +50,7 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | microSD-Kartenleser	| Zum Schreiben des Images auf die microSD-Karte |
 | USB-Stick / USB-Festplatte |	Zur Dateiablage
 | Gerät für Verbindungsaufbau zum Raspi	| Am besten eignet sich hierfür ein Notebook |
+|
 
 ### 02.2 Software
 | Name |	Funktionalität |	Mindestanforderungen |
@@ -48,6 +59,7 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | Win32 Disk Imager (Windows) <br> ApplePi-Baker v2 (macOS) | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
 | Angry IP Scanner	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
 | Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
+|
 
 
 ## 03 Installationsanleitung
