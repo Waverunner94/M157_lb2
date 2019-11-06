@@ -36,8 +36,7 @@ Wie es beim realisieren technischer Lösungen leider oft so ist, funktioniert ni
 | Problem | Beschrieb | Lösungsansatz |
 |:---------|:---------------|:--------|
 | Raspberry Pi offline | Obwohl der Raspi mit eingesteckter microSD-Karte läuft und im LAN auftauchen sollte, <br> erscheint dieser nicht in den Suchergebnissen des IP-Scanners. | - Monitor an Raspi anschliessen, Status prüfen <br> - Client und Raspi im selben Netz? <br> - Raspi austauschen <br> - microSD-Karte richtig geflasht? |
-| Verbindungsprobleme | Der Raspi läuft, aber es kann keine Verbindung zum OpenMediaVault Webinterface <br> hergestellt werden | - Login via Raspi CMC - mount -a <br> - Anderen Browser verwenden
-|
+| Verbindungsprobleme | Der Raspi läuft, aber es kann keine Verbindung zum OpenMediaVault Webinterface <br> hergestellt werden | - Login via Raspi CMC - mount -a <br> - Anderen Browser verwenden |
 
 ## 02 Materialliste
 Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwarte benötigt:  
@@ -50,7 +49,6 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | microSD-Kartenleser	| Zum Schreiben des Images auf die microSD-Karte |
 | USB-Stick / USB-Festplatte |	Zur Dateiablage
 | Gerät für Verbindungsaufbau zum Raspi	| Am besten eignet sich hierfür ein Notebook |
-|
 
 ### 02.2 Software
 | Name |	Funktionalität |	Mindestanforderungen |
@@ -59,7 +57,6 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | Win32 Disk Imager (Windows) <br> ApplePi-Baker v2 (macOS) | Software zum beschreiben (flashen) der microSD-Karte | Windows / Mac Client |
 | Angry IP Scanner	| Software zur Aufspürung des Raspberry Pis |	Windows / Mac Client |
 | Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
-|
 
 
 ## 03 Installationsanleitung
