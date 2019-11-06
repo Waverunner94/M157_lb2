@@ -3,7 +3,7 @@
 +--Dokumentation--------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.4                            !
+! Version: 1.5                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
@@ -23,6 +23,7 @@
     - [03.6 RAID](#036-raid)
     - [03.7 Plugins](#037-plugins)
   - [04 Testing](#04-testing)
+    - [04.1](#041-testprotokoll)
   - [05 Übergabe an den Betrieb](#05-%c3%9cbergabe-an-den-betrieb)
   - [06 Quellen](#06-quellen)
 
@@ -135,6 +136,13 @@ Dies ist legidlich eine kleine Auswahl an Plugins, um den Umfang von OpenMediaVa
 
 
 ## 04 Testing
+### 04.1 Testprotokoll
+| Was | Soll | Ist | i.O. |
+|:---------|:---------------|:-----|:-----|
+| NAS Pi als Gast verwenden | Freigegebene Ordner für Gäste können ohne Login gesehen und verwendet werden |  |   |  
+| NAS Pi als Benutzer verwenden | Freigegebene Ordner für Benutzer können nur mit Login gesehen und verwendet werden |  |  |  
+| Benutzer an Gruppen hinzufügen | Benutzer können Gruppen hinzugefügt werden und übernehmen die entsprechenden Zugriffsrechte |  |  |  
+| RAID / Mirroring funktioniert | USB Sticks werden gespiegelt |  |  |  
 
 
 ## 05 Übergabe an den Betrieb
