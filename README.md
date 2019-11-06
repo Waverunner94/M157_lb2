@@ -1,6 +1,6 @@
 # Serviceauftrag RasPi-Werkstatt: NAS Pi - README  
 ```
-+--Dokumentation--------------------------+
++--Readme---------------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
 ! Version: 1.2                            !
