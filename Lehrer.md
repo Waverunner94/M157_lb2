@@ -24,8 +24,7 @@
     - [03.7 Plugins](#037-plugins)
   - [04 Testing](#04-testing)
     - [04.1 Testprotokoll](#041-testprotokoll)
-  - [05 Übergabe an den Betrieb](#05-%c3%9cbergabe-an-den-betrieb)
-  - [06 Quellen](#06-quellen)
+  - [05 Quellen](#05-quellen)
 
 ## 01 Servicebeschrieb
 Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigenes kompaktes und portables NAS auf einem Raspberry Pi aufzusetzen. Der Auftrag ist vor allem an Anfänger gerichtet und bietet einen soliden Einstieg in die zentrale Dateispeicherung im privaten Bereich.  
@@ -145,10 +144,7 @@ Dies ist legidlich eine kleine Auswahl an Plugins, um den Umfang von OpenMediaVa
 | RAID / Mirroring funktioniert | USB Sticks werden gespiegelt |  |  |  
 
 
-## 05 Übergabe an den Betrieb
-
-
-## 06 Quellen
+## 05 Quellen
 *<a name="1">1</a>* https://www.openmediavault.org/  
 *<a name="2">2</a>* https://sourceforge.net/projects/win32diskimager/files/latest/download  
 *<a name="3">3</a>*	https://www.tweaking4all.com/hardware/raspberry-pi/applepi-baker-v2/#InstallingApplePiBaker  
