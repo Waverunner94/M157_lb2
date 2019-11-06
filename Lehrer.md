@@ -44,8 +44,10 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 | Raspberry Pi 2 / Raspberry Pi 3 / Raspberry Pi 4 | Einplatinencomputer – Funktion als NAS-Server |
 | microSD-Karte	| Speicherkarte auf der sich das OS-Image befindet |
 | microSD-Kartenleser	| Zum Schreiben des Images auf die microSD-Karte |
-| USB-Stick / USB-Festplatte |	Zur Dateiablage
+| USB-Stick / USB-Festplatte |	Zur Dateiablage |
 | Gerät für Verbindungsaufbau zum Raspi	| Am besten eignet sich hierfür ein Notebook |
+| evt. Tastatur | Für den direkten Anschluss ans Raspi falls notwendig |
+| evt. Monitor | Ebenfalls für den direkten Anschluss ans Raspi falls notwendig |
 
 ### 02.2 Software
 | Name |	Funktionalität |	Mindestanforderungen |
