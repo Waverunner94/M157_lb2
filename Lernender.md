@@ -17,6 +17,7 @@
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
   - [03 Aufgabenstellung](#03-installationsanleitung)
+    - [03.1 Bewertungsraster](#031-bewertungsraster)
   - [04 Qualitätskontrolle](#04-qualit%c3%a4tskontrolle)
   - [05 Error-Handling](#05-error-handling)
 
