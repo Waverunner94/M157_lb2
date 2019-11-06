@@ -23,7 +23,7 @@
     - [03.6 RAID](#036-raid)
     - [03.7 Plugins](#037-plugins)
   - [04 Testing](#04-testing)
-    - [04.1](#041-testprotokoll)
+    - [04.1 Testprotokoll](#041-testprotokoll)
   - [05 Übergabe an den Betrieb](#05-%c3%9cbergabe-an-den-betrieb)
   - [06 Quellen](#06-quellen)
 
