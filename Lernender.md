@@ -1,6 +1,6 @@
 # Serviceauftrag RasPi-Werkstatt: NAS Pi - Lernender
 ```
-+--Dokumentation--------------------------+
++--Dokumentation Lernender----------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
 ! Version: 1.1                            !
