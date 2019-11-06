@@ -10,11 +10,12 @@
 - [Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer](#serviceauftrag-raspi-werkstatt-nas-pi---lehrer)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [01 Servicebeschrieb](#01-servicebeschrieb)
-    - [Funktionen](#funktionen)
+    - [01.1 Funktionen](#funktionen)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
+    - [03.1 Installation von OpenMediaVault](#031-installation-von-openmediavault)
   - [04 Testing](#04-testing)
   - [05 Übergabe an den Betrieb](#05-%c3%9cbergabe-an-den-betrieb)
   - [06 Quellen](#06-quellen)
@@ -22,7 +23,7 @@
 ## 01 Servicebeschrieb
 Mithilfe unseres Serviceauftrags haben die Lernenden die Möglichkeit ein eigenes kompaktes und portables NAS auf einem Raspberry Pi aufzusetzen. Der Auftrag ist vor allem an Anfänger gerichtet und bietet einen soliden Einstieg in die zentrale Dateispeicherung im privaten Bereich.  
 
-### Funktionen
+### 01.1 Funktionen
 -	Speichern und Verwalten von Dateien
 -	Fernzugriff über FTP, TFTP, SMB, NFS und SNMP
 -	Datensicherung mit Rsync: welche Verzeichnisse werden gesichert, welche nicht
@@ -55,7 +56,12 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 Die Installation von OpenMediaVault gestaltet sich sehr simpel. Das heruntergeladene Image muss nur noch auf eine microSD-Karte geschrieben werden.
 Wenn man den Raspi mit der angesteckten microSD-Karte startet, bootet OpenMediaVault automatisch. Um nun an die IP für den Zugriff auf das Webinterface zu gelangen, kann man entweder einen Monitor an den Raspberry Pi anschliessen oder diese via IP-Scanner Software ermitteln.  
   
-  ![CMC](pictures/cmc.jpg)
+  ![CMC](pictures/cmc.jpg)  
+    
+### 03.2 Anmeldung & Erste Schritte  
+OpenMediaVault wird direkt in einem Browser über das Webinterface konfiguriert. Der Zugriff erfolgt über die Eingabe der ermittelten IP-Adresse in der Adressleiste des Browsers.  
+  
+  ![Login](pictures/login.jpg)
 
 
 ## 04 Testing
