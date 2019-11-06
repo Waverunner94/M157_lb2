@@ -3,7 +3,7 @@
 +--Dokumentation Lernender----------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.2                            !
+! Version: 1.3                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
@@ -16,7 +16,7 @@
   - [02 Materialliste](#02-materialliste)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
-  - [03 Installationsanleitung](#03-installationsanleitung)
+  - [03 Aufgabenstellung](#03-installationsanleitung)
   - [04 Qualitätskontrolle](#04-qualit%c3%a4tskontrolle)
   - [05 Error-Handling](#05-error-handling)
 
@@ -61,7 +61,21 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | Browser (Chrome, Firefox, Edge, etc.) |	Zugriff auf das OpenMediaVault Webinterface	| Windows / Mac Client |
 
 
-## 03 Installationsanleitung
+## 03 Aufgabenstellung
+### 03.1 Bewertungsraster  
+| Was? | Soll | Punkte | Notiz |
+|:---------|:---------------|:-------|:---------|
+| Freigebene Ordner | Freigegebene Ordner können aufgerufen und verwendet werden. | 4 |  |
+| Uhrzeit | Die Zeit des Nas-Pi ist der lokalen Urzeit angepasst. | 1 |  |
+| Administrator Passwort | Das Passwort des Administrators für das WebGUI wurde gewechselt. Zusatzpunkte wenn das Login zusätzlich geschützt wird. | 1-3 |  |
+| Dienste funktionieren | Einer oder mehrere passende Dienste wurden eigerichtet. (Verschiedene Arten von File Sharing) | 1-4 |  |
+| Benutzer | Es gibt unterschiedliche Benutzer mit Login. | 2 |  |
+| Gruppen | Gruppen sind vorhanden und User sind den entsprechenden Gruppen zugewiesen. | 2 |  | 
+| Berechtigungen | Für die verschiedenen Gruppen wurden unterschiedliche Berechtigungen vergeben. Diese haben auch einen Einfluss auf die Zugriffsrechte. | 1 |  |
+| RAID | Ein beliebiges RAID ist in Verwendung. | 2 |  |
+| Plugins eingerichtet | Mindestens eine für den Service passende Erweiterung ist eingerichtet. | 0-6 |  |
+| Live-Demo | Der Dienst kann dem Lehrer Live vorgeführt und erklärt werden. | 2 |  |
+
 
 
 ## 04 Qualitätskontrolle
