@@ -3,7 +3,7 @@
 +--Dokumentation--------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.2                            !
+! Version: 1.3                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
@@ -50,6 +50,12 @@ Die von uns gewählte Variante für den eigenen NAS-Server ist unkompliziert, ko
 
 
 ## 03 Installationsanleitung
+
+### 03.1 Installation von OpenMediaVault  
+Die Installation von OpenMediaVault gestaltet sich sehr simpel. Das heruntergeladene Image muss nur noch auf eine microSD-Karte geschrieben werden.
+Wenn man den Raspi mit der angesteckten microSD-Karte startet, bootet OpenMediaVault automatisch. Um nun an die IP für den Zugriff auf das Webinterface zu gelangen, kann man entweder einen Monitor an den Raspberry Pi anschliessen oder diese via IP-Scanner Software ermitteln.  
+  
+  ![CMC](pictures/cmc.jpg)
 
 
 ## 04 Testing
