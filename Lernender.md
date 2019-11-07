@@ -63,6 +63,8 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 
 
 ## 03 Aufgabenstellung
+Richte ein funktionstüchtiges NAS Pi mit der Open Source Software OpenMediaVault für Raspis ein. OpenMediaVault ist sehr übersichtlich und selbsterklärend für den ersten Kontakt mit Raspis und NAS. Zur Hilfe steht dir ein Bewertungsraster, ein Error Handling und das Internet zur Verfügung. So bekommst du eine genaue Anweisung was verlangt ist, etwas Hilfe bei Problemen und Freiheit um das Projekt so durchzuziehen wie du es für richtig hälst.  
+
 ### 03.1 Bewertungsraster  
 | Was? | Soll | Punkte | Notiz |
 |:---------|:---------------|:-------|:---------|
