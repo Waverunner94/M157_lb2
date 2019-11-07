@@ -91,7 +91,6 @@ Mithilfe der untenstehenden Tabelle kannst du sicherstellen, dass dein NAS die w
 | NAS Pi als Gast verwenden | Freigegebene Ordner für Gäste können ohne Login gesehen und verwendet werden |  |   |  
 | NAS Pi als Benutzer verwenden | Freigegebene Ordner für Benutzer können nur mit Login gesehen und verwendet werden |  |  |  
 | Benutzer an Gruppen hinzufügen | Benutzer können Gruppen hinzugefügt werden und übernehmen die entsprechenden Zugriffsrechte |  |  |  
-| RAID / Mirroring funktioniert | USB Sticks werden gespiegelt |  |  | 
 
 ## 05 Error-Handling  
 | Problem | Hilfestellung |
