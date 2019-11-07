@@ -12,11 +12,11 @@
   - [01 Einführung](#01-einf%c3%bchrung)
     - [Kompakt & Portabel](#kompakt--portabel)
     - [Daten speichern und synchronisieren](#daten-speichern-und-synchronisieren)
-    - [Verbindungsprobleme und andere mögliche Stolpersteine](#verbindungsprobleme-und-andere-mögliche-stolpersteine)
+    - [Verbindungsprobleme und andere mögliche Stolpersteine](#verbindungsprobleme-und-andere-m%c3%b6gliche-stolpersteine)
   - [02 Materialliste](#02-materialliste)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
-  - [03 Aufgabenstellung](#03-installationsanleitung)
+  - [03 Aufgabenstellung](#03-aufgabenstellung)
     - [03.1 Bewertungsraster](#031-bewertungsraster)
   - [04 Qualitätskontrolle](#04-qualit%c3%a4tskontrolle)
   - [05 Error-Handling](#05-error-handling)
@@ -82,4 +82,13 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 ## 04 Qualitätskontrolle
 
 
-## 05 Error-Handling
+## 05 Error-Handling  
+| Was | Soll | Ist | i.O. |
+|:---------|:---------------|:-----|:-----|
+| Raspi hat Strom? | - Stromkabel ist eingesteckt<br> - Raspi blinkt |  |  |
+| Raspi bootet? |  |  |  |
+| Raspi ist im richtigen Netz? | Der Raspi ist im gleichen Netz wie der Rechner von dem darauf zugegriffen werden soll. |  |  |
+| WebGUI ist erreichbar? | Das WebGUI lässt sich über die IP des Raspi's aufrufen. |  |  |
+| Alle Laufwerke erkannt? | Alle konfigurierten Laufwerke werden angezeigt und sind gemountet. |  |  |
+| Gerät nicht in einer Domäne | Um das NAS-Pi zu nutzen sollte das Gerät in keiner Domäne sein, sondern einfach in einer "Workgroup". |  |  |
+| Freigaben vorhanden | Alle Freigaben sind "Referenziert", das heisst sie sind zugänglich/ Online. |  |  |
