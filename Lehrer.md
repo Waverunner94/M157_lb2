@@ -133,7 +133,7 @@ Für OpenMediaVault gibt es viele verschiedene Erweiterungen. Je nach Nutzungszw
 - Dank eines Backup Plugins können regelmässige Backups gezogen werden um die Daten zu sichern.  
 - Ausserdem gibt es auch ein WebDav Plug-in, welches Dateien übers Internet freigeben kann.  
 
-Dies ist legidlich eine kleine Auswahl an Plugins, um den Umfang von OpenMediaVault aufzuzeigen.
+Dies ist lediglich eine kleine Auswahl an Plugins, um den Umfang von OpenMediaVault aufzuzeigen.
 
 
 ## 04 Testing
