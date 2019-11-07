@@ -18,6 +18,7 @@
     - [02.2 Software](#022-software)
   - [03 Aufgabenstellung](#03-aufgabenstellung)
     - [03.1 Bewertungsraster](#031-bewertungsraster)
+    - [03.2 Hilfestellung](#032-hilfestellung)
   - [04 Qualitätskontrolle](#04-qualit%c3%a4tskontrolle)
   - [05 Error-Handling](#05-error-handling)
 
@@ -81,7 +82,9 @@ Richte ein funktionstüchtiges NAS mit der Open Source Software OpenMediaVault f
 | Live-Demo | Der Dienst kann dem Lehrer Live vorgeführt und erklärt werden. | 2 |  |
 | **Total** |  |  |  |
 
-
+### 03.2 Hilfestellung
+OpenMediaVault ist zwar relativ einfach aufzusetzen und einzurichten, dennoch bietet es einiges an Umfang wenn man weitere Plugins und möglicherweise ein RAID einrichten möchte. So kann man auch leicht die Übersicht verlieren.  
+- [Hier findest du etwas über Plugins](https://openmediavault.readthedocs.io/en/latest/plugins.html)
 
 ## 04 Qualitätskontrolle
 Mithilfe der untenstehenden Tabelle kannst du sicherstellen, dass dein NAS die wichtigsten Funktionen erfüllt.
