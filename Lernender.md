@@ -63,7 +63,7 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 
 
 ## 03 Aufgabenstellung
-Richte ein funktionstüchtiges NAS Pi mit der Open Source Software OpenMediaVault für Raspis ein. OpenMediaVault ist sehr übersichtlich und selbsterklärend für den ersten Kontakt mit Raspis und NAS. Zur Hilfe steht dir ein Bewertungsraster, ein Error Handling und das Internet zur Verfügung. So bekommst du eine genaue Anweisung was verlangt ist, etwas Hilfe bei Problemen und Freiheit um das Projekt so durchzuziehen wie du es für richtig hälst.  
+Richte ein funktionstüchtiges NAS mit der Open Source Software OpenMediaVault für Raspis ein. OpenMediaVault ist für den ersten Kontakt mit Raspis und NAS sehr übersichtlich und selbsterklärend. Zur Hilfe steht dir ein Bewertungsraster, ein Error Handling und das Internet zur Verfügung. So bekommst du eine genaue Anweisung was verlangt ist, etwas Hilfe bei Problemen und Freiheit um das Projekt so durchzuziehen wie du es für richtig hälst.  
 
 ### 03.1 Bewertungsraster  
 | Was? | Soll | Punkte | Notiz |
@@ -84,7 +84,14 @@ Richte ein funktionstüchtiges NAS Pi mit der Open Source Software OpenMediaVaul
 
 
 ## 04 Qualitätskontrolle
+Mithilfe der untenstehenden Tabelle kannst du sicherstellen, dass dein NAS die wichtigsten Funktionen erfüllt.
 
+| Was | Soll | Ist | i.O. |
+|:---------|:---------------|:-----|:-----|
+| NAS Pi als Gast verwenden | Freigegebene Ordner für Gäste können ohne Login gesehen und verwendet werden |  |   |  
+| NAS Pi als Benutzer verwenden | Freigegebene Ordner für Benutzer können nur mit Login gesehen und verwendet werden |  |  |  
+| Benutzer an Gruppen hinzufügen | Benutzer können Gruppen hinzugefügt werden und übernehmen die entsprechenden Zugriffsrechte |  |  |  
+| RAID / Mirroring funktioniert | USB Sticks werden gespiegelt |  |  | 
 
 ## 05 Error-Handling  
 | Problem | Hilfestellung |
