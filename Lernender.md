@@ -3,7 +3,7 @@
 +--Dokumentation Lernender----------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.3                            !
+! Version: 1.4                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
@@ -67,6 +67,7 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | Was? | Soll | Punkte | Notiz |
 |:---------|:---------------|:-------|:---------|
 | Freigebene Ordner | Freigegebene Ordner können aufgerufen und verwendet werden. | 4 |  |
+| Benutzer und Gast Freigabe | Es ist mindestens je ein Laufwerk für Gäste und Benutzer vorhanden. | 2 |  |
 | Uhrzeit | Die Zeit des Nas-Pi ist der lokalen Urzeit angepasst. | 1 |  |
 | Administrator Passwort | Das Passwort des Administrators für das WebGUI wurde gewechselt. Zusatzpunkte wenn das Login zusätzlich geschützt wird. | 1-3 |  |
 | Dienste funktionieren | Einer oder mehrere passende Dienste wurden eigerichtet. (Verschiedene Arten von File Sharing) | 1-4 |  |
@@ -76,6 +77,7 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 | RAID | Ein beliebiges RAID ist in Verwendung. | 2 |  |
 | Plugins eingerichtet | Mindestens eine für den Service passende Erweiterung ist eingerichtet. | 0-6 |  |
 | Live-Demo | Der Dienst kann dem Lehrer Live vorgeführt und erklärt werden. | 2 |  |
+| **Total** |  |  |  |
 
 
 
@@ -83,12 +85,12 @@ Für den eigenen NAS-Server mit OpenMediaVault wird nur wenig Hard- und Softwart
 
 
 ## 05 Error-Handling  
-| Was | Soll | Ist | i.O. |
-|:---------|:---------------|:-----|:-----|
-| Raspi hat Strom? | - Stromkabel ist eingesteckt<br> - Raspi blinkt |  |  |
-| Raspi bootet? |  |  |  |
-| Raspi ist im richtigen Netz? | Der Raspi ist im gleichen Netz wie der Rechner von dem darauf zugegriffen werden soll. |  |  |
-| WebGUI ist erreichbar? | Das WebGUI lässt sich über die IP des Raspi's aufrufen. |  |  |
-| Alle Laufwerke erkannt? | Alle konfigurierten Laufwerke werden angezeigt und sind gemountet. |  |  |
-| Gerät nicht in einer Domäne | Um das NAS-Pi zu nutzen sollte das Gerät in keiner Domäne sein, sondern einfach in einer "Workgroup". |  |  |
-| Freigaben vorhanden | Alle Freigaben sind "Referenziert", das heisst sie sind zugänglich/ Online. |  |  |
+| Problem | Hilfestellung |
+|:---------|:---------------|
+| Raspi hat Strom? | - Stromkabel ist eingesteckt<br> - Raspi blinkt |
+| Raspi bootet? | Bildschirm anhängen und schauen ob man ein Bild bekommt. Wenn ja kann man beim Booten zuschauen und eventuelle Fehler entdecken |
+| Raspi ist im richtigen Netz? | Der Raspi ist im gleichen Netz wie der Rechner von dem darauf zugegriffen werden soll. Hierzu ist die MAC des Raspi und ein IP Scanner die Lösung. |
+| WebGUI ist erreichbar? | Raspi neu booten, währenddessen mit Monitor überwachen und Netz nochmal prüfen. |
+| Alle Laufwerke erkannt? | Alle konfigurierten Laufwerke werden angezeigt und sind gemountet. Um dies zu überprüfen muss man sich als Root auf der CMD anmelden und ein "mount -a" ausführen. |
+| Probleme beim Zugreifen auf Freigegebene Ordner | Um das NAS Pi zu nutzen sollte das Gerät in keiner Domäne sein, sondern einfach in einer "Workgroup". Es geht auch mit, ist aber komplizierter. |
+| Freigaben wird nicht gefunden | Auf WebGUI überprüfen ob eine Freigabe nicht "Referenziert" ist. |
