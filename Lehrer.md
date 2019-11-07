@@ -3,23 +3,23 @@
 +--Dokumentation Lehrer-------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.5                            !
+! Version: 2.0                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis
 - [Serviceauftrag RasPi-Werkstatt: NAS Pi - Lehrer](#serviceauftrag-raspi-werkstatt-nas-pi---lehrer)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [01 Servicebeschrieb](#01-servicebeschrieb)
-    - [01.1 Funktionen](#funktionen)
+    - [01.1 Funktionen](#011-funktionen)
   - [02 Voraussetzungen](#02-voraussetzungen)
     - [02.1 Hardware](#021-hardware)
     - [02.2 Software](#022-software)
   - [03 Installationsanleitung](#03-installationsanleitung)
     - [03.1 Installation von OpenMediaVault](#031-installation-von-openmediavault)
-    - [03.2 Anmeldung & Erste Schritte](#032-anmeldung-&-erste-schritte)
-    - [03.3 Datenspeicher & Freigegebene Ordner](#033-datenspeicher-&-freigegebene-ordner)
+    - [03.2 Anmeldung & Erste Schritte](#032-anmeldung--erste-schritte)
+    - [03.3 Datenspeicher & Freigegebene Ordner](#033-datenspeicher--freigegebene-ordner)
     - [03.4 Dienste](#034-dienste)
-    - [03.5 Benutzer & Gruppen](#035-benutzer-&-gruppen)
+    - [03.5 Benutzer und Gruppen](#035-benutzer-und-gruppen)
     - [03.6 RAID](#036-raid)
     - [03.7 Plugins](#037-plugins)
   - [04 Testing](#04-testing)

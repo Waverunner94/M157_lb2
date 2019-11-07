@@ -3,7 +3,7 @@
 +--Dokumentation Lernender----------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.4                            !
+! Version: 2.0                            !
 +-----------------------------------------+
 ```
 ## Inhaltsverzeichnis

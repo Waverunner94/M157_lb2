@@ -3,7 +3,7 @@
 +--Readme---------------------------------+
 ! Autoren: Severin Sieber | Roman Signer  !
 +-----------------------------------------+
-! Version: 1.2                            !
+! Version: 2.0                            !
 +-----------------------------------------+
 ```  
 ## [Für die Lehrperson des Moduls 126](Lehrer.md)
