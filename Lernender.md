@@ -85,6 +85,8 @@ Richte ein funktionstüchtiges NAS mit der Open Source Software OpenMediaVault f
 ### 03.2 Hilfestellung
 OpenMediaVault ist zwar relativ einfach aufzusetzen und einzurichten, dennoch bietet es einiges an Umfang wenn man weitere Plugins und möglicherweise ein RAID einrichten möchte. So kann man auch leicht die Übersicht verlieren.  
 - [Hier findest du etwas über Plugins](https://openmediavault.readthedocs.io/en/latest/plugins.html)
+- [Hier findest du hilfreiche Informationen wie man ein Raspi aufsetzt](https://openmediavault.readthedocs.io/en/latest/plugins.html)
+- [Hier findest du etwas über die verschiedenen RAID-Level](https://www.speicherguide.de/storage-hardware/disk-subsysteme/raid-level-im-ueberblick-13981.aspx)  
 
 ## 04 Qualitätskontrolle
 Mithilfe der untenstehenden Tabelle kannst du sicherstellen, dass dein NAS die wichtigsten Funktionen erfüllt.
